@@ -4,7 +4,11 @@ module.exports = {
     "./**/*.html"
   ],
   theme: {
-    extend: {},
+    extend: {
+        backgroundImage: {
+          'bgcake': "url('/webcake/img/bgcake.jpg')"
+        }
+    },
   },
   plugins: [],
 }

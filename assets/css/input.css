@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@font-face {
+    font-family: 'Prompt';
+    src: url(/webcake/font/Prompt-SemiBold.ttf)
+}
+
+body{
+    font-family: "Prompt", sans-serif;
+}
+
+.full-screen {
+    height: 100vh;
+}
+.hero {
+    font-family: "Prompt", sans-serif;
+    background-image: url('/webcake/img/bgcake.jpg');
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+}
